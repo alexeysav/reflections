@@ -1,0 +1,28 @@
+usin $ diff and specifinig 2 file can show the difference between them.
+That is helpful comparing old and new versions of file.
+No need to scan the file for chages manualy. Besides some mistake
+like typos can be such small that you may not see them, but computer will.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I can compare new and old version if I run into a mistake and find quickly what I have changed in the new one and understand the mistake 
+and correct it. Or I can quickly return to an older version if I do not like the result of the the new version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: you wont loose much of your work if case of an accident with the computer and in case you forget to save. 
+Cons: You might get too many version and not all of them would be correct or working. And you might end up comparing useless versions.
+
+using $ git log --stat shows you changes of the files in repository
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because others like Google docs are not tailord for coding projects. Git is on oposite. It helps track changes in related files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows you all the versions with changes. By reading the description you can find the version neede. By using the id of the commits you can compare them using git diff command. Yo can also use git log --stat as far as I undesrtand, if you know the correct commit description. But it only shows you number of changes (inputs and deleteion). git diff has more details.
+
+How might using version control make you more confident to make changes that could break something?
+
+Using version control, git checkout command for example, you can also return to a previous version and check if it has a bug or not. NB! when using git diff command first you type the id of the commit had had no bug and then commit's id with the bug. Not the opposite. It will show the difference but it might be wrongly enterpretated.  
