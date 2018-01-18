@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A file .git is created. It is needed to to track changes made to the files in my project. In other words changes made to all the files related to the project. I can add files and folder? to .git creating a repository.  
